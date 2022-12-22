@@ -23,7 +23,6 @@ void FillArray(double[,] matr, int minValue, int maxValue)
 {
     int rows = matr.GetLength(0);
     int columns = matr.GetLength(1);
-    double tmp = 0;
     for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
